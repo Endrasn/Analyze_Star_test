@@ -200,7 +200,7 @@ def cosmic_body_classification(csv_path):
 
 
 def main():
-    path = "/home/umdrasyl/下载/gz2_hart16.csv"
+    path = ""
     parser = argparse.ArgumentParser()
     parser.add_argument('--csv_path', type=str, default=path)
     args = parser.parse_args()
