@@ -5,16 +5,15 @@
 
 ## 使用步骤
 1. 创建并激活环境
-conda create -n astro python=3.11
-conda activate astro
+conda env create -f environment.yml
+conda activate star-gpu
 
 2. 安装依赖
 pip install -r requirements.txt
 
 3. 运行代码
-python main.py
+python project_GPU.py
 
 ## 说明
-- 纯 CPU 运行 
 - 运行后自动出结果和 5 张图 
 - 学生练习用
