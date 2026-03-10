@@ -12,9 +12,8 @@ conda activate astro
 pip install -r requirements.txt
 
 3. 运行代码
-python main.py
+python ./Project_****.py
 
 ## 说明
-- 纯 CPU 运行 
 - 运行后自动出结果和 5 张图 
 - 学生练习用
