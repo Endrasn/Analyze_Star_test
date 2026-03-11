@@ -245,7 +245,7 @@ def cosmic_body_classification(csv_path):
     logging.info("✅ 任务全部完成！GPU 表现完美。")
 
 def main():
-    path = "/home/umdrasyl/下载/gz2_hart16.csv"
+    path = ""
     parser = argparse.ArgumentParser()
     parser.add_argument('--csv_path', type=str, default=path)
     args = parser.parse_args()
